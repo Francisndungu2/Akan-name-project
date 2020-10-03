@@ -8,3 +8,7 @@ h1 {
     font-size: 5em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.jumbotron {
+    border-radius: 10px;
+}
