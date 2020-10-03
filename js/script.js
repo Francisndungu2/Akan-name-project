@@ -10,4 +10,8 @@ function getName() {
     var maleNames = ["Kwasi", "Kwandwo", "Kwaku", "Kwabena", "Yaw", "Kofi", "Kwame"];
     var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     var females = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+
+    if (year == "" || year.length < 4 || year.length > 4) {
+        alert("Hey you need to enter a valid year!");
+    }
 }
