@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <title>akanname</title>
+    <title>Akan names</title>
 </head>
 
 <body>
@@ -25,58 +26,72 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="card">
-                    <h4>malenames</h4>
+                    <h4>Male names
+                    </h4>
                     <ul>
-                        <li>sunday:kwasi</li>
-                        <li>monday:kwandwo</li>
-                        <li>tuesday:kwabena</li>
-                        <li>wednesday:kwaku</li>
-                        <li>thursday:yaw</li>
-                        <li>friday:kofi</li>
-                        <li>saturday:kwame</li>
+                        <li>Sunday: Kwasi</li>
+                        <li>Monday: Kwadwo</li>
+                        <li>Tuesday: Kwabena</li>
+                        <li>Wednesday: Kwaku</li>
+                        <li>Thursday: Yaw</li>
+                        <li>Friday: Kofi</li>
+                        <li>Saturday: Kwame</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <h4>Female names</h4>
+                    <ul>
+                        <li>Sunday: Akosua</li>
+                        <li>Monday: Adwoa</li>
+                        <li>Tuesday: Abenaa</li>
+                        <li>Wednesday: Akua</li>
+                        <li>Thursday: Yaa</li>
+                        <li>Friday: Afua </li>
+                        <li>Saturday: Ama</li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="col-md-6">
-            <div class="card">
-                <h4>female names</h4>
-                <ul>
-                    <li>sunday:Akosua</li>
-                    <li>monday:Adwoa</li>
-                    <li>Tuesday:Abenaa</li>
-                    <li>wednesday:Akua</li>
-                    <li>Thursday:Yaa</li>
-                    <li>Friday:Afua</li>
-                    <li>Saturday:Ama</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-6">
-            <form>
-                <div>
-                    <input type="number" id="yob" placeholder="Year" required>
-                </div>
-                <div>
-                    <input type="number" id="month" placeholder="month" required>
-                </div>
-                <div><input type="number" id="day" placeholder="date" required>
-                </div>
-                <div id="gender">
-                    <input type="radio" value="male" id="male" name=" gender ">male
-                    <input type="radio " value="female " id="female" name=" gender "> female
-                </div>
-                <div>
-                    <input type="button" value="Find out" onclick="getName();" class="btn btn-primary">
-                    <input type="reset" value="Reset" </div>
-            </form>
+
+        <div class="row">
+            <div class="col-md-6">
+                <form>
+
+                    <div>
+                        <input type="number" id="yob" placeholder="Year" required>
+                    </div>
+                    <div>
+                        <input type="number" id="month" placeholder="Month" required>
+                    </div>
+                    <div>
+                        <input type="number" id="day" placeholder="date " required>
+                    </div>
+                    <div id="gender">
+                        <input type="radio" value="male" id="male" name="gender">Male
+                        <input type="radio" value="female" id="female" name="gender">Female
+                    </div>
+                    <div>
+                        <input type="button" value="Find out" onclick="getName();" class="btn btn-primary">
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
             </div>
             <div class="col-md-6">
                 <p id="result"></p>
+
             </div>
+
         </div>
-        div</body>
+        <div class="col-sm-8 col-md-8 img-responsive img-rounded ">
+        </div>
+
+    </div>
+    </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
 
 </html>
