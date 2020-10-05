@@ -1,11 +1,12 @@
 # My akan name
-#### {This project is for generating the akan name}, {03/10/2020}
+#### {This project is for generating the akan name which is ghanaian name}, {03/10/2020}
 #### By **Francis ndung'u**    
 ---
 ## Setup instructions
 * Launch your browser
 * on your search bar white 
-* on github click the link and you ready to go.
+* on github click the link
+
 ### Git Hub Live Link
 *click to view my portfolio*
  {}
