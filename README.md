@@ -8,8 +8,8 @@
 * on github click the link
 
 ### Git Hub Live Link
-*click to view my portfolio*
- {}
+*click to view my project*
+ {https://francisndungu2.github.io/Akan-name-project/}
  ## Technologies used
  {HTML for creating website}
  {css for styling website}
